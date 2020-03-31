@@ -21,7 +21,6 @@ export function EnvironmentsList({ environments, resourcesById, artifacts: allAr
   return (
     <div>
       <NoticeCard
-        className="sp-margin-l-bottom"
         icon="checkBadge"
         text={undefined}
         title={`${allArtifacts.length} ${
